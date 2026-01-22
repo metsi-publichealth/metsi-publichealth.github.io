@@ -1,5 +1,5 @@
 # Site settings
-title: Freelancer
+title: METSI Public Health
 email: kath.m.oreilly@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Test "
@@ -32,23 +32,23 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright:
   location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  #- title: twitter
+  #  url: http://twitter.com/jekyllrb
+  #- title: facebook
+  #  url:
+  #- title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+  #- title: bitbucket
+  #  url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/metsi-publichealth
 
 # Postal address (add as many lines as necessary)
 address:
