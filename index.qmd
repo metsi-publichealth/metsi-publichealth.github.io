@@ -23,8 +23,8 @@ Building on these activities, modelling and analysis are required to improve how
 * By working closely with subject experts, we will evaluate the utility of wastewater measures for these additional pathogens within South Africa, and provide information that can be useful for additional settings where there is an absence of reliable clinical data.
 
 Additonal resources:
-* [Weekly South Africa Wastewater Dashboard](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
-* [Wastewater Documentation Repo](https://github.com/NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io)
+* A [Weekly South Africa Wastewater Dashboard](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
+* A [Wastewater Documentation Repo](https://github.com/NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io)
 
 [#::: {.column-margin}
 # note we could add a twitter feed here
