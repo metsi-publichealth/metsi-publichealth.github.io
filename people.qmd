@@ -22,7 +22,7 @@ expanded <- current_team |>
     knitr::knit_expand(
       "_team_member.Rmd", 
       name = e[["name"]],
-      aff = e[["affiliation"]],
+      affiliation = e[["affiliation"]],
       webpage = e[["webpage"]],
       github = e[["github"]],
       twitter = e[["twitter"]],
