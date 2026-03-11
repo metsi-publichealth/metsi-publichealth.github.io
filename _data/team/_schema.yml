@@ -10,6 +10,10 @@ properties:
       Your name. It is only used for display and thus doesn't have to match your
       administrative name.
     type: string
+  affiliation:
+    description: >
+      select one of the consortium partners
+    type: string
   github:
     description: Your github username (*without* the '@')
     type: string

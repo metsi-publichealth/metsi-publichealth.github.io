@@ -19,9 +19,10 @@ icon_link <- function(icon = NULL, text = NULL, url = NULL) {
 
 ```{r}
 title <- "{{name}}"
+aff <- "{{affiliation}}"
 
 if ("{{webpage}}" != "") {
-  title <- htmltools::a(title, "href" = "{{webpage}}")
+  title <- htmltools::a(paste0(title," (",aff,")"), "href" = "{{webpage}}")
 }
 
 if ("{{github}}" != "") {
