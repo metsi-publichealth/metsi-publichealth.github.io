@@ -22,12 +22,13 @@ Building on these activities, modelling and analysis are required to improve how
 * The interpretation of these data require development as the ‘presence/absence’ of polio is for many pathogens too simplistic a measure. On the other hand, quantitative values generated need to be examined against available clinical data so we can better understand the information in the signal.
 * By working closely with subject experts, we will evaluate the utility of wastewater measures for these additional pathogens within South Africa, and provide information that can be useful for additional settings where there is an absence of reliable clinical data.
 
-Addiitonal resources:
+Additonal resources:
 * [Weekly South Africa Wastewater Dashboard](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
 * [Wastewater Documentation Repo](https://github.com/NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io)
 
-#::: {.column-margin}
+[#::: {.column-margin}
 # note we could add a twitter feed here
 #<script async src="https://bst.heion.net/timeline.js" data-handle="epiforecasts.io" data-theme="light" data-width="420" data-height="500" data-lang="en" data-pin="0"></script>
-
+#
 #:::
+]: #
