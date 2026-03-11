@@ -1,5 +1,5 @@
 ---
-title: "epiforecasts blog"
+title: "METSI Public Health blog"
 listing: 
   contents: posts
   sort: "date desc"

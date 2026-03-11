@@ -1,0 +1,19 @@
+---
+title: "Making first blog post"
+subtitle: "on this website"
+author:
+  - name: Kath O'Reilly
+    orcid_id: 0000-0002-4892-8022
+date: 2026-03-11
+toc: true
+aliases:
+  - getting started.html
+editor_options: 
+  markdown: 
+    wrap: 80
+---
+
+Here is a very simple blog post. I am using markdown to create it, it's really simple - here is a [link](https://www.markdownguide.org/basic-syntax/#overview) to guidelines for adding things like URLs.
+
+More posts to appear here very soon. 
+
