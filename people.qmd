@@ -1,0 +1,54 @@
+---
+title: "People"
+link-external-icon: false
+---
+
+<script src="https://kit.fontawesome.com/52811a1d50.js" crossorigin="anonymous"></script>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, file = here::here("snippets", "team_members.R")}
+```
+
+Team members are staff, students and long-term visitors (3 months or more) of the group.
+
+## Current team members
+
+```{r, results='asis'}
+expanded <- current_team |>
+  purrr::map_chr(function(e) {
+    knitr::knit_expand(
+      "_team_member.Rmd", 
+      name = e[["name"]],
+      webpage = e[["webpage"]],
+      github = e[["github"]],
+      twitter = e[["twitter"]],
+      bluesky = e[["bluesky"]],
+      orcid = e[["orcid"]],
+      description = e[["description"]]
+    )
+  }) |>
+  knitr::knit_child(text = _, quiet = TRUE) |>
+  cat(sep = "\n")
+```
+
+## Former team members
+
+```{r, results='asis'}
+former_team <- team[setdiff(names(team), names(current_team))] |>
+  purrr::map_chr(function(e) {
+    if (is.null(e[["webpage"]]) || e[["webpage"]] == "") {
+      e[["name"]]
+    } else {
+      glue::glue('[{e[["name"]]}]({e[["webpage"]]})')
+    }
+  }) |>
+  cat(sep = " · ")
+```
+
+## Timeline
+
+```{r, file = here::here("snippets", "gantt_chart.R"), fig.height = 6, message = FALSE}
+```
