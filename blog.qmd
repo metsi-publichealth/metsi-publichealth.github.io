@@ -1,0 +1,9 @@
+---
+title: "epiforecasts blog"
+listing: 
+  contents: posts
+  sort: "date desc"
+  feed: true
+---
+
+Subscribe to new updates via [RSS](blog.xml).
