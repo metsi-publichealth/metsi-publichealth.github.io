@@ -1,9 +1,7 @@
-# Metsi Public Health website
+# epiforecasts website
 
-This repository contains the source code for the metsi public health website. 
-This website is built with [quarto](https://quarto.org/) and relies on automation wherever possible. Many thanks to Seb Funk for helping set up this website and theme.
-
-*Rest of this markdown needs updating*
+This repository contains the source code for the epiforecasts website. 
+This website is built with [quarto](https://quarto.org/) and relies on automation wherever possible.
 
 ## Adding a new team member
 
