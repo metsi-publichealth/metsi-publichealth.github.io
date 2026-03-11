@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r, file = here::here("snippets", "team_members.R")}
 ```
 
-Team members are staff, students and long-term visitors (3 months or more) of the group.
+Team members are staff, students and long-term visitors (3 months or more) of the consortia.
 
 ## Current team members
 
@@ -48,7 +48,4 @@ former_team <- team[setdiff(names(team), names(current_team))] |>
   cat(sep = " · ")
 ```
 
-## Timeline
 
-```{r, file = here::here("snippets", "gantt_chart.R"), fig.height = 6, message = FALSE}
-```
