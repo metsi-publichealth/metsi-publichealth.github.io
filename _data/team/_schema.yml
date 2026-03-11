@@ -38,3 +38,4 @@ properties:
 required:
   - name
   - position
+  - affiliation
