@@ -12,6 +12,8 @@ website:
   repo-actions: [edit, source]
   description: "metsi-public-health team website"
   navbar:
+    logo: images/metsi_logo.svg
+    logo-alt: "metsi public health"
     left:
       - text: "About"
         href: about.qmd
