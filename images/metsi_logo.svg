@@ -1,15 +1,13 @@
-<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>metsi public health logo</title>
-  <rect x="0.5" y="0.5" width="319" height="95" rx="16" fill="white"/>
-  <rect x="0.5" y="0.5" width="319" height="95" rx="16" stroke="#E6ECF2"/>
-  <circle cx="48" cy="48" r="28" fill="#18BC9C"/>
-  <path d="M30 50.5C34 43.5 39.5 40 47.5 40C56 40 61.5 44.5 66 53.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
-  <rect x="45.5" y="24" width="5" height="48" rx="2.5" fill="white"/>
-  <path d="M96 39H104.2L111.1 53.8L117.9 39H126.1V66H119.7V49.7L113.6 62.6H108.6L102.4 49.7V66H96V39Z" fill="#2C3E50"/>
-  <path d="M132.5 48.7C133.5 42.7 137.9 39 144.2 39C151.6 39 156.1 43.9 156.1 51.7V53.7H139.4C140 57.4 142.7 59.7 146.8 59.7C149.6 59.7 151.8 58.8 154.3 56.9L155.4 62.3C152.9 64.6 149.6 66 145.9 66C137.5 66 132 60.5 132 52.5C132 51.2 132.2 49.9 132.5 48.7ZM149.6 49.2C149.4 46 147.2 43.9 144.1 43.9C141.1 43.9 139 46 138.6 49.2H149.6Z" fill="#2C3E50"/>
-  <path d="M161.8 43.8H157.4V39H161.8V33H168.3V39H174.7V43.8H168.3V56.5C168.3 58.4 169.3 59.4 171.3 59.4C172.6 59.4 173.7 59.1 174.7 58.6V64.1C173.3 64.8 171.8 65.1 169.8 65.1C164.7 65.1 161.8 62.4 161.8 57.3V43.8Z" fill="#2C3E50"/>
-  <path d="M179.7 30H186.2V42.6C188 40.4 190.7 39 193.9 39C199.9 39 203.8 43.2 203.8 49.7V66H197.3V50.9C197.3 46.9 195.2 44.6 191.8 44.6C188.3 44.6 186.2 47 186.2 50.9V66H179.7V30Z" fill="#2C3E50"/>
-  <path d="M210.7 39H217.2V54.1C217.2 58.1 219.4 60.3 222.7 60.3C226.1 60.3 228.2 58 228.2 54.1V39H234.7V66H228.2V62.7C226.4 65 223.8 66.3 220.6 66.3C214.6 66.3 210.7 62.2 210.7 55.6V39Z" fill="#2C3E50"/>
-  <path d="M242.3 43.9H238V39H242.3V37.7C242.3 32.7 245.1 30 250.3 30C251.7 30 253.1 30.3 254.3 30.8V36C253.4 35.6 252.3 35.3 251.2 35.3C249 35.3 248.8 36.7 248.8 38.3V39H254.5V43.9H248.8V66H242.3V43.9Z" fill="#2C3E50"/>
-  <path d="M258.1 39H264.6V42.8C266 40.2 268.3 39 271.2 39C272.1 39 273 39.2 273.9 39.5V45.8C272.9 45.4 271.8 45.1 270.6 45.1C266.9 45.1 264.6 47.7 264.6 52.1V66H258.1V39Z" fill="#2C3E50"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 320 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-4,2)">
+        <g transform="matrix(48,0,0,48,279.242,63.5019)">
+        </g>
+        <text x="91.418px" y="63.502px" style="font-family:'MarkerFelt-Thin', 'Marker Felt';font-size:48px;">M<tspan x="137.066px 157.706px 179.546px 203.066px " y="63.502px 63.502px 63.502px 63.502px ">ETSI</tspan>-P<tspan x="255.242px " y="63.502px ">H</tspan></text>
+    </g>
+    <path d="M319.5,16.5L319.5,79.5C319.5,88.331 312.331,95.5 303.5,95.5L16.5,95.5C7.669,95.5 0.5,88.331 0.5,79.5L0.5,16.5C0.5,7.669 7.669,0.5 16.5,0.5L303.5,0.5C312.331,0.5 319.5,7.669 319.5,16.5Z" style="fill:none;stroke:rgb(230,236,242);stroke-width:1px;"/>
+    <circle cx="48" cy="48" r="28" style="fill:rgb(24,188,156);"/>
+    <path d="M30,50.5C34,43.5 39.5,40 47.5,40C56,40 61.5,44.5 66,53.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:5px;stroke-linecap:round;"/>
+    <path d="M50.5,26.5L50.5,69.5C50.5,70.88 49.38,72 48,72C46.62,72 45.5,70.88 45.5,69.5L45.5,26.5C45.5,25.12 46.62,24 48,24C49.38,24 50.5,25.12 50.5,26.5Z" style="fill:white;"/>
 </svg>
