@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Modelling EnviromenTal Surveillance data for Improvements in Public Health (MEtSI-PH) (Metsi means ‘water’ in Sesotho language, one of our 9 South African official languages) "
 description: |
   Ongoing analysis projects from the group
 ---
