@@ -1,11 +1,19 @@
+# Title shown on the Projects page.
 title: NICD Wastewater Genomics
+# Keep this to a short public-facing summary of the project work and outputs.
 summary: >
   Documentation and resources for the NICD Wastewater Genomics Syndicate,
   which coordinates multi-pathogen genomic surveillance of wastewater across
   South Africa to inform public health responses.
+# List GitHub usernames from _data/team, or [] if no profiles should be shown.
 team: []
+# Use a full URL for the main project page, or "" if there is none yet.
 url: "https://nicd-wastewater-genomics.github.io"
+# Use the main GitHub repository as owner/name, or "" if not applicable.
 repo: NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io
+# Use a local site image path, or "" if there is no project image.
 image: images/genomes.svg
+# Dates must use YYYY-MM-DD, or "" if the start date is not known.
 start: ""
+# Leave blank for ongoing projects; otherwise use YYYY-MM-DD.
 end: ""

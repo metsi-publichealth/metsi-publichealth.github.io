@@ -1,12 +1,20 @@
+# Title shown on the Projects page.
 title: Wastewater spiking experiment
+# Keep this to a short public-facing summary of the project work and outputs.
 summary: >
   R code and modelling for a wastewater spiking experiment, used to
   characterise pathogen recovery and decay in wastewater surveillance
   methods.
+# List GitHub usernames from _data/team, or [] if no profiles should be shown.
 team:
   - kath-o-reilly
+# Use a full URL for the main project page, or "" if there is none yet.
 url: ""
+# Use the main GitHub repository as owner/name, or "" if not applicable.
 repo: kath-o-reilly/ww-spiking-expment-1
+# Use a local site image path, or "" if there is no project image.
 image: ""
+# Dates must use YYYY-MM-DD, or "" if the start date is not known.
 start: ""
+# Leave blank for ongoing projects; otherwise use YYYY-MM-DD.
 end: ""
