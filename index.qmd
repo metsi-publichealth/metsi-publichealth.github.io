@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ![From samples to inference of epidemics and pandemics](images/metsi_ph_banner.svg)<br><br>
+![metsi public health logo](images/metsi_logo.svg){width=280px}<br><br>
 _Photography credit: Tshepiso Seleka (GCRO). Schematic summarises the possible use cases of wastewater data. See O'Reilly et al [(2025)](https://pubmed.ncbi.nlm.nih.gov/40174494/)_
 
 The National Institute for Communicable Diseases (NICD) takes pride in its pivotal role as the national public health institute tasked with disease surveillance in South Africa. The Wastewater Genomics Syndicate, situated within the Centre for Vaccines and Immunology at NICD, spearheads wastewater and environmental surveillance (WES) for communicable diseases. <br><br>
@@ -26,5 +27,4 @@ Building on these activities, modelling and analysis are required to improve how
 Additonal resources:
 * A [Weekly South Africa Wastewater Dashboard](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
 * A [Wastewater Documentation Repo](https://github.com/NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io)
-
 
