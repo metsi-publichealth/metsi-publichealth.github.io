@@ -19,16 +19,16 @@ knitr::opts_chunk$set(echo = FALSE)
 </div>
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img src="images/banner_photos/metsi_ph_banner.jpg" class="d-block w-120" alt="Metsi" fetchpriority="high">
+<img src="images/banner_photos/metsi_ph_banner.jpg" class="d-block w-120 h-90" alt="Metsi" fetchpriority="high">
 </div>
 <div class="carousel-item">
-<img src="images/banner_photos/1V2A4253.jpg" class="d-block w-120" alt="Public health fieldwork" fetchpriority="high">
+<img src="images/banner_photos/1V2A4253.jpg" class="d-block w-120 h-90" alt="Public health fieldwork" fetchpriority="high">
 </div>
 <div class="carousel-item">
-<img src="images/banner_photos/1V2A4319.jpg" class="d-block w-120" alt="Public health fieldwork" loading="lazy">
+<img src="images/banner_photos/1V2A4319.jpg" class="d-block w-120 h-90" alt="Public health fieldwork" loading="lazy">
 </div>
 <div class="carousel-item">
-<img src="images/banner_photos/1V2A4372.jpg" class="d-block w-120" alt="Public health fieldwork" loading="lazy">
+<img src="images/banner_photos/1V2A4372.jpg" class="d-block w-120 h-90" alt="Public health fieldwork" loading="lazy">
 </div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#banner-photo-carousel" data-bs-slide="prev">
