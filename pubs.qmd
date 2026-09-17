@@ -5,6 +5,7 @@ title: "Publications"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(magrittr)
+library(htmltools)
 ```
 
 Below is a list of selected publications (sorted by year) illustrating the type of work conducted by our team. See also our [ongoing projects](projects.qmd) and [software](software.qmd).
@@ -12,6 +13,16 @@ Below is a list of selected publications (sorted by year) illustrating the type 
 ```{r}
 bibfile <- "_data/papers.bib"
 ```
+
+::: {.publication-filters}
+<div class="publication-filter-header">
+  <strong>Filter by subject area</strong>
+  <button type="button" class="publication-filter-clear" id="publication-filter-clear" hidden>Clear filters</button>
+</div>
+<div id="publication-filter-options" class="publication-filter-options" aria-label="Publication subject areas"></div>
+<p id="publication-filter-count" class="publication-filter-count" aria-live="polite"></p>
+<p id="publication-filter-empty" class="publication-filter-empty" hidden>No publications match the selected subjects.</p>
+:::
 
 ::: {.publications-list}
 
@@ -44,6 +55,41 @@ bib <- bibtex::read.bib(bibfile) %>%
 years <- purrr::map_chr(bib, ~ as.character(as.numeric(.x$year) %||% "0"))
 bib <- bib[order(years, decreasing = TRUE)]
 
+# Use existing BibTeX keywords as initial subject tags. Both comma- and
+# semicolon-separated keyword fields are supported.
+publication_tags <- function(entry) {
+  keywords <- as.character(entry$keywords %||% "")
+  keywords <- unlist(strsplit(keywords, "[,;]"))
+  # Collapse internal whitespace/newlines from multi-line BibTeX fields
+  keywords <- trimws(gsub("\\s+", " ", gsub("[{}]", "", keywords)))
+  keywords <- keywords[nzchar(keywords)]
+  if (length(keywords) == 0) {
+    keywords <- "General public health"
+  }
+  unique(keywords)
+}
+
+slugify <- function(value) {
+  value <- tolower(gsub("[^[:alnum:]]+", "-", value))
+  gsub("(^-|-$)", "", value)
+}
+
+all_tags <- sort(unique(unlist(purrr::map(bib, publication_tags))))
+all_tag_slugs <- purrr::map_chr(all_tags, slugify)
+# Guard against distinct tags slugifying to the same id (e.g. differing only
+# by punctuation/whitespace), which would otherwise collide as object keys.
+all_tags <- all_tags[!duplicated(all_tag_slugs)]
+all_tag_slugs <- all_tag_slugs[!duplicated(all_tag_slugs)]
+
+# Render filter options after the BibTeX file has been parsed so the controls
+# always stay in sync with the available publication tags.
+cat(
+  '<script>window.publicationTags = ',
+  jsonlite::toJSON(stats::setNames(as.list(all_tags), all_tag_slugs), auto_unbox = TRUE),
+  ';</script>\n',
+  '<script src="publication-filter.js" defer></script>\n'
+)
+
 # Render each publication
 purrr::walk(bib, function(entry) {
   authors <- truncate_authors(entry$author)
@@ -53,6 +99,14 @@ purrr::walk(bib, function(entry) {
   journal <- gsub("[{}]", "", journal)
   year <- as.character(entry$year %||% "")
   doi <- as.character(entry$doi %||% "")
+  tags <- publication_tags(entry)
+  tag_ids <- paste(purrr::map_chr(tags, slugify), collapse = " ")
+  tags_html <- paste(
+    purrr::map_chr(tags, function(tag) {
+      sprintf('<span class="pub-tag">%s</span>', htmlEscape(tag))
+    }),
+    collapse = " "
+  )
 
   if (doi != "" && !is.na(doi)) {
     title_html <- sprintf('<a href="https://doi.org/%s">%s</a>', doi, title)
@@ -61,8 +115,8 @@ purrr::walk(bib, function(entry) {
   }
 
   cat(sprintf(
-    '<div class="pub-item"><strong>%s</strong> (%s). %s. <em>%s</em>.</div>\n',
-    authors, year, title_html, journal
+    '<div class="pub-item" data-tags="%s"><strong>%s</strong> (%s). %s. <em>%s</em>.<div class="pub-tags">%s</div></div>\n',
+    htmlEscape(tag_ids), authors, year, title_html, journal, tags_html
   ))
 })
 ```
