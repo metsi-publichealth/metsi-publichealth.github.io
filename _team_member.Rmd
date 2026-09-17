@@ -22,6 +22,7 @@ icon_link <- function(icon = NULL, text = "", url = NULL) {
 ```{r}
 name <- "{{name}}"
 affiliation <- "{{affiliation}}"
+role <- "{{role}}"
 email <- "{{email}}"
 image <- "{{image}}"
 webpage <- "{{webpage}}"
@@ -31,14 +32,16 @@ bluesky <- "{{bluesky}}"
 orcid <- "{{orcid}}"
 description <- "{{description}}"
 
-title <- name
-aff <- affiliation
-
+name_link <- name
 if (webpage != "") {
-  title <- htmltools::a(paste0(title, " (", aff, ")"), href = webpage)
-} else {
-  title <- paste0(title, " (", aff, ")")
+  name_link <- htmltools::a(name, href = webpage)
 }
+
+title <- htmltools::div(
+  htmltools::div(name_link, class = "team-member-name"),
+  htmltools::div(affiliation, class = "team-member-affiliation"),
+  if (role != "") htmltools::div(role, class = "team-member-role")
+)
 
 if (email != "") {
   title <- htmltools::div(title, icon_link("bi bi-envelope", url = paste0("mailto:", email)))
