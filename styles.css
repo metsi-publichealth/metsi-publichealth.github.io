@@ -1,3 +1,26 @@
+/* Homepage photo banner */
+.banner-photo-carousel {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.banner-photo-carousel .carousel-item {
+  height: clamp(260px, 42vw, 520px);
+  background: var(--bs-secondary-bg, #f8f9fa);
+}
+
+.banner-photo-carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner-photo-carousel .carousel-item p {
+  height: 100%;
+  margin: 0;
+}
+
 /* Project cards */
 .project-card {
   padding: 0.75rem 0;
