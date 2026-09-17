@@ -134,6 +134,15 @@
   column-gap: 15px;
   row-gap: 0.75rem;
   align-items: start;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.team-member-card:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
 }
 
 .profile-pic {
