@@ -60,9 +60,7 @@ if (bluesky != "") {
 }
 ```
 
-### `r htmltools::renderTags(title)$html`
-
-:::: {style="display: grid; grid-template-columns: 150px 1fr; grid-column-gap: 15px; align-items: start;"}
+:::: {class="team-member-card"}
 
 ::: {class=profile-pic}
 
@@ -76,7 +74,13 @@ if (image != "") {
 
 :::
 
-::: {}
+::: {class=team-member-details}
+
+`r htmltools::renderTags(title)$html`
+
+:::
+
+::: {class=team-member-description}
 
 `r description`
 
