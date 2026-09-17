@@ -1,10 +1,42 @@
 ---
-title: "Modelling EnviromenTal Surveillance data for Improvements in Public Health (MEtSI-PH) (Metsi means ‘water’ in Sesotho language, one of our 9 South African official languages) "
+title: "About Us"
 description: |
-  Ongoing analysis projects from the group
+  
 ---
 
-Ongoing analysis and research projects from the group. For completed work, see our [publications](pubs.qmd). For reusable tools, see our [software](software.qmd).
+## Who we are
+
+MEtSI-PH is a consortium of mathematical modellers, epidemiologists, laboratory scientists and public health specialists focused on the application of wastewater and environmental surveillance in lower and middle income countries, and committed to developing interpretive frameworks for environmental surveillance data in these contexts. The goal is to support the use and translation of environmental surveillance data pertaining to communicable diseases for public health decision-making, integrated with traditional surveillance data such as case reporting. 
+
+## Why ‘MEtSI-PH’?
+
+MEtSI-PH is an acronym standing for ‘Modelling EnvironmenTal Surveillance data for Improvements in Public Health. ‘Metsi’ is also a Sesotho and Setswana word for water. Both southern Bantu languages are spoken in regions of South Africa and Botswana that are water scarce - such as the Kalahari desert. In these regions, water has more than practical value for drinking and hygiene. It has a central role in agriculture and human settlements, and has symbolic value conveying meanings of life, fertility and survival. In taking on the name ‘Metsi’, our modelling consortium draws on these concepts as we transform data extracted from environmental and wastewater to support public health and human flourishing. 
+
+## Where are we from?
+
+Our consortium is supported by experienced mathematical modellers, epidemiologists and public health specialists from key South African and international institutions and universities, including the National Institute for Communicable Diseases (Johannesburg, South Africa), the universities of Cape Town and Stellenbosch, and the London School of Hygiene and Tropical Medicine.
+
+## What we do?
+
+Wastewater and environmental surveillance (WES) is a communicable disease surveillance modality that has increasing global use as a complementary tool alongside traditional case-based disease surveillance systems. WES relies on highly sensitive laboratory assays to detect minute concentrations of pathogen-specific nucleic acid in wastewater from human settlements. By tracking trends in the presence and concentration of these nucleic acids, data can provide population-level insights into disease epidemiology. 
+
+## Why wastewater surveillance?
+
+Traditional surveillance methods have relied on case detection by health care workers who recognise clinical symptoms in their patients and report these to health authorities, or conduct laboratory diagnostic tests, and if positive, report these results with clinical details. National public health institutes are responsible for collating and analysing these data to provide information pertaining to disease burden, trends in disease transmission. These data are then used for public health decision-making. 
+
+Whilst these traditional surveillance methods are incredibly useful, they are intrinsically limited to making diagnoses and counting cases amongst persons who present to the health system. 
+
+(insert Figure XXX)
+
+## Why is mathematical modelling necessary?
+
+MEtSI-PH was formed in 2025, building on modeling work done with SARS-CoV-2 environmental surveillance data during  pandemic by the Environmental Surveillance…VAIPH (‘ES-VAIPH’) group. Beyond SARS-CoV-2, our modelling work has extended to influenza, measles, hepatitis E, hepatitis A and more recently Mycobacterium tuberculosis. Each of these pathogens contributes to significant morbidity and mortality in the LMIC context. Our goal is to develop interpretive frameworks for wastewater data that will support the use of  Modelling work that integrates clinical and wastewater data 
+
+## How are we funded?
+
+MeTSI-PH is presently funded largely through Gates Foundation grants. 
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
