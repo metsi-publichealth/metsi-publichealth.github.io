@@ -152,3 +152,14 @@
   text-decoration: none;
   margin-left: 0.35rem;
 }
+
+.team-member-name,
+.team-member-affiliation,
+.team-member-role {
+  display: block;
+}
+
+.team-member-affiliation,
+.team-member-role {
+  font-weight: normal;
+}

@@ -27,11 +27,30 @@ field <- function(e, name) {
   paste(as.character(value), collapse = " ")
 }
 
+role <- function(e) {
+  position <- e[["position"]]
+
+  if (is.null(position) || length(position) == 0) {
+    return("")
+  }
+
+  if (is.character(position)) {
+    return(paste(position, collapse = ", "))
+  }
+
+  purrr::map_chr(position, \(p) {
+    if (is.list(p)) field(p, "type") else as.character(p)
+  }) |>
+    purrr::discard(\(value) is.na(value) || value == "") |>
+    paste(collapse = ", ")
+}
+
 expanded <- purrr::map_chr(current_team, function(e) {
   knitr::knit_expand(
     "_team_member.Rmd", 
     name = field(e, "name"),
     affiliation = field(e, "affiliation"),
+    role = role(e),
     email = field(e, "email"),
     image = field(e, "image"),
     webpage = field(e, "webpage"),
@@ -66,4 +85,3 @@ former_team <- team[setdiff(names(team), names(current_team))] |>
   }) |>
   cat(sep = " · ")
 ```
-

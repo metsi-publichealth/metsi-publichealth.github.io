@@ -57,6 +57,76 @@
   color: var(--bs-secondary-color, #6c757d);
 }
 
+.publication-filters {
+  padding: 1rem;
+  margin: 1.5rem 0 0.75rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.375rem;
+}
+
+.publication-filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.publication-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.publication-filter-option {
+  cursor: pointer;
+  margin: 0;
+}
+
+.publication-filter-option input {
+  accent-color: var(--bs-primary);
+}
+
+.publication-filter-option span,
+.pub-tag {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.publication-filter-option input:checked + span {
+  color: var(--bs-white, #fff);
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.publication-filter-clear {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.25rem;
+  background: transparent;
+}
+
+.publication-filter-count,
+.publication-filter-empty {
+  margin: 0.75rem 0 0;
+  color: var(--bs-secondary-color, #6c757d);
+  font-size: 0.9rem;
+}
+
+.pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.pub-tag {
+  color: var(--bs-secondary-color, #6c757d);
+}
+
 /* Team member profile pictures */
 .profile-pic {
   width: 150px;
@@ -81,4 +151,15 @@
 .icon-link {
   text-decoration: none;
   margin-left: 0.35rem;
+}
+
+.team-member-name,
+.team-member-affiliation,
+.team-member-role {
+  display: block;
+}
+
+.team-member-affiliation,
+.team-member-role {
+  font-weight: normal;
 }
