@@ -12,24 +12,24 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 <div id="banner-photo-carousel" class="carousel slide banner-photo-carousel" data-bs-ride="carousel" data-bs-interval="6000" data-bs-pause="hover">
-       <div class="carousel-indicators">
-              <button type="button" data-bs-target="#banner-photo-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Show banner photo 1"></button>
-              <button type="button" data-bs-target="#banner-photo-carousel" data-bs-slide-to="1" aria-label="Show banner photo 2"></button>
-              <button type="button" data-bs-target="#banner-photo-carousel" data-bs-slide-to="2" aria-label="Show banner photo 3"></button>
-       </div>
-       <div class="carousel-inner">
-              <div class="carousel-item active">
-              <img src="images/banner_photos/metsi_ph_banner.jpg" class="d-block w-100" alt="Metsi" fetchpriority="high">
-              </div>
-              <div class="carousel-item">
-              <img src="images/banner_photos/1V2A4253.jpg" class="d-block w-100" alt="Public health fieldwork" fetchpriority="high">
-              </div>
-              <div class="carousel-item">
-              <img src="images/banner_photos/1V2A4319.jpg" class="d-block w-100" alt="Public health fieldwork" loading="lazy">
-              </div>
-              <div class="carousel-item">
-              <img src="images/banner_photos/1V2A4372.jpg" class="d-block w-100" alt="Public health fieldwork" loading="lazy">
-              </div>
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#banner-photo-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Show banner photo 1"></button>
+<button type="button" data-bs-target="#banner-photo-carousel" data-bs-slide-to="1" aria-label="Show banner photo 2"></button>
+<button type="button" data-bs-target="#banner-photo-carousel" data-bs-slide-to="2" aria-label="Show banner photo 3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="images/banner_photos/metsi_ph_banner.jpg" class="d-block w-100" alt="Metsi" fetchpriority="high">
+</div>
+<div class="carousel-item">
+<img src="images/banner_photos/1V2A4253.jpg" class="d-block w-100" alt="Public health fieldwork" fetchpriority="high">
+</div>
+<div class="carousel-item">
+<img src="images/banner_photos/1V2A4319.jpg" class="d-block w-100" alt="Public health fieldwork" loading="lazy">
+</div>
+<div class="carousel-item">
+<img src="images/banner_photos/1V2A4372.jpg" class="d-block w-100" alt="Public health fieldwork" loading="lazy">
+</div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#banner-photo-carousel" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
