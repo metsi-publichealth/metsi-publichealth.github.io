@@ -46,8 +46,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 _Banner photography credit: Tshepiso Seleka (GCRO). Schematic summarises the possible use cases of wastewater data. See O'Reilly et al [(2025)](https://pubmed.ncbi.nlm.nih.gov/40174494/)_
 
-*Who we are*
+_Who we are_
+
 MEtSI-PH is a consortium of mathematical modellers, epidemiologists, laboratory scientists and public health specialists focused on the application of wastewater and environmental surveillance in lower and middle income countries, and committed to developing interpretive frameworks for environmental surveillance data in these contexts. The goal is to support the use and translation of environmental surveillance data pertaining to communicable diseases for public health decision-making, integrated with traditional surveillance data such as case reporting. 
 
-*Why ‘MEtSI-PH’?*
+_Why ‘MEtSI-PH’?_
+
 MEtSI-PH is an acronym standing for ‘Modelling EnvironmenTal Surveillance data for Improvements in Public Health. ‘Metsi’ is also a Sesotho and Setswana word for water. Both southern Bantu languages are spoken in regions of South Africa and Botswana that are water scarce - such as the Kalahari desert. In these regions, water has more than practical value for drinking and hygiene. It has a central role in agriculture and human settlements, and has symbolic value conveying meanings of life, fertility and survival. In taking on the name ‘Metsi’, our modelling consortium draws on these concepts as we transform data extracted from environmental and wastewater to support public health and human flourishing. 
