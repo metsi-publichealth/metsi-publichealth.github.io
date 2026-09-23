@@ -4,7 +4,10 @@ description: |
   Analysis and modelling of wastewater data in South Africa
 site: distill::distill_website
 resources:
-  - "images/metsi_ph_banner.svg"
+  - "images/banner_photos/metsi_ph_banner.jpg"
+  - "images/banner_photos/1V2A4253.jpg"
+  - "images/banner_photos/1V2A4319.jpg"
+  - "images/banner_photos/1V2A4372.jpg"
 ---
 
 ```{r setup, include=FALSE}
@@ -40,18 +43,11 @@ knitr::opts_chunk$set(echo = FALSE)
 <span class="visually-hidden">Next photo</span>
 </button>
 </div><br><br>
-![metsi public health logo](images/metsi_logo.svg){width=280px}<br><br>
+
 _Banner photography credit: Tshepiso Seleka (GCRO). Schematic summarises the possible use cases of wastewater data. See O'Reilly et al [(2025)](https://pubmed.ncbi.nlm.nih.gov/40174494/)_
 
-The National Institute for Communicable Diseases (NICD) takes pride in its pivotal role as the national public health institute tasked with disease surveillance in South Africa. The Wastewater Genomics Syndicate, situated within the Centre for Vaccines and Immunology at NICD, spearheads wastewater and environmental surveillance (WES) for communicable diseases. <br><br>
+*Who we are*
+MEtSI-PH is a consortium of mathematical modellers, epidemiologists, laboratory scientists and public health specialists focused on the application of wastewater and environmental surveillance in lower and middle income countries, and committed to developing interpretive frameworks for environmental surveillance data in these contexts. The goal is to support the use and translation of environmental surveillance data pertaining to communicable diseases for public health decision-making, integrated with traditional surveillance data such as case reporting. 
 
-Environmental surveillance commenced in 2018 as part of the global effort to eradicate polio. Samples from wastewater treatment plants (WWTP) across the country are tested for polio. In 2020, amidst the challenges posed by the COVID-19 pandemic, the NICD swiftly built on the polio surveillance network to commence WES for SARS-CoV-2. Through meticulous observations and analyses, we demonstrated the efficacy of wastewater analysis as an early detection tool for changes in transmission dynamics and population disease burden. In addition to this, with the incorporation of cutting-edge bioinformatics tools, such as Freyja, it has become possible to identify SARS-CoV-2 variants within wastewater samples. This breakthrough not only reinforces the utility of wastewater surveillance in combating COVID-19 but also provides invaluable insights into population-level disease dynamics and variant circulation. As clinical case numbers decline, wastewater surveillance has become a cornerstone for disease surveillance.<br><br>
-
-Building on these activities, modelling and analysis are required to improve how the wastewater data generated can provide insights that are useful for public health:
-* The pathogens that we are testing for has expanded. 
-* The interpretation of these data require development as the ‘presence/absence’ of polio is for many pathogens too simplistic a measure. On the other hand, quantitative values generated need to be examined against available clinical data so we can better understand the information in the signal.
-* By working closely with subject experts, we will evaluate the utility of wastewater measures for these additional pathogens within South Africa, and provide information that can be useful for additional settings where there is an absence of reliable clinical data.
-
-Additonal resources:
-* A [Weekly South Africa Wastewater Dashboard](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
-* A [Wastewater Documentation Repo](https://github.com/NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io)
+*Why ‘MEtSI-PH’?*
+MEtSI-PH is an acronym standing for ‘Modelling EnvironmenTal Surveillance data for Improvements in Public Health. ‘Metsi’ is also a Sesotho and Setswana word for water. Both southern Bantu languages are spoken in regions of South Africa and Botswana that are water scarce - such as the Kalahari desert. In these regions, water has more than practical value for drinking and hygiene. It has a central role in agriculture and human settlements, and has symbolic value conveying meanings of life, fertility and survival. In taking on the name ‘Metsi’, our modelling consortium draws on these concepts as we transform data extracted from environmental and wastewater to support public health and human flourishing. 
