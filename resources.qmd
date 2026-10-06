@@ -1,77 +1,40 @@
 ---
-title: "Projects"
+title: "Resources"
 description: |
-  Ongoing analysis projects from the group
+  Useful resources that we've identified and wider resources for poeple
 ---
 
-Ongoing analysis and research projects from the group. For completed work, see our [publications](pubs.qmd). For reusable tools, see our [software](software.qmd).
+# Resources we've found useful
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-library(magrittr)
-```
+Here we highlight some of the tools that others have made available, and that the team have used in their analysis
 
-```{r load-team}
-# Load team members and create lookup by GitHub username
-team <- fs::dir_ls("_data/team", regexp = "\\w+\\-\\w+\\.yml") |>
-  purrr::map(yaml::read_yaml)
+## [EpiSewer](https://github.com/adrian-lison/EpiSewer) - estimating Rt from wastewater data
 
-team_by_github <- team %>%
-  purrr::keep(~ !is.null(.x$github) && .x$github != "") %>%
-  purrr::set_names(purrr::map_chr(., "github"))
-```
+This package was used by Zinhle Mthombothi in her paper available at [PloS Global Public Health](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0006424). The analysis was applied to WW data in South Africa.
+## [EpiForecasts](https://epiforecasts.io/) - estimating Rt from clinical data 
 
-```{r, results='asis'}
-# Each project is described by its own YAML file in _data/projects/, with a
-# title and text summary (see _data/projects/_schema.yml for the full set of
-# fields).
-projects <- fs::dir_ls("_data/projects", regexp = "\\w+\\-\\w+\\.yml") %>%
-  purrr::map(yaml::read_yaml)
+This package is in use by current projects to estimate Rt from clinical data
 
-projects %>%
-  purrr::map_chr(function(p) {
-    # Link the title to the project's website/repo if available, otherwise
-    # show it as plain text
-    project_url <- p$url %||% (
-      if (!is.null(p$repo) && p$repo != "") paste0("https://github.com/", p$repo) else ""
-    )
-    title_section <- if (!is.null(project_url) && project_url != "") {
-      sprintf("[%s](%s)", p$title, project_url)
-    } else {
-      p$title
-    }
+# Data used within MetSi-PH
 
-    # Match listed team members to their profile for the contributors row
-    contributors_section <- ""
-    team_logins <- p$team %||% list()
-    if (length(team_logins) > 0) {
-      team_contributors <- team_logins %>%
-        purrr::keep(~ .x %in% names(team_by_github)) %>%
-        purrr::map(function(login) {
-          tm <- team_by_github[[login]]
-          list(name = tm$name, github = login)
-        })
+Much of the data are publicly available for use. Several links are provided below:
 
-      if (length(team_contributors) > 0) {
-        contributor_items <- purrr::map_chr(team_contributors, function(c) {
-          sprintf(
-            '<a href="https://github.com/%s" title="%s"><img src="https://github.com/%s.png?size=64" alt="%s" width="32" height="32"></a>',
-            c$github, c$name, c$github, c$name
-          )
-        })
-        contributors_section <- paste(contributor_items, collapse = " ")
-      }
-    }
+## [GCRO Quality of Life Survey Data](https://www.gcro.ac.za/research/project/detail/quality-life-survey-7/)
+The GCRO QOLS measures the quality of life and wellbeing of residents in every ward of the Gauteng province, South Africa. In face-to-face interviews, randomly selected respondents are asked questions about their living and socio-economic circumstances, their opinions about service delivery and government, and their experiences, perceptions, and opinions on a broad range of personal, social, and political issues. Data are available via an [online tool](https://www.gcro.ac.za/data-gallery/quality-of-life/detail/quality-life-v-201718-survey-viewer/) or [repository](https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/995).
 
-    knitr::knit_expand(
-      "_project-item.Rmd",
-      title_section = title_section,
-      summary = stringr::str_squish(p$summary),
-      start = p$start %||% "",
-      end = p$end %||% "",
-      contributors_section = contributors_section
-    )
-  }) %>%
-  { knitr::knit_child(text = unlist(.), quiet = TRUE) } %>%
-  cat(sep = "\n")
-```
+## [Wastewater data](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
+
+A weekly surveillance report is available on the NICD website.
+
+## [Clinical data](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
+
+A weekly surveillance report is available on the NICD website.
+
+# Requesting data access
+
+[to add…]
+
+
+
+
+
