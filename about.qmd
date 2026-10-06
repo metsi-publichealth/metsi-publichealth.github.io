@@ -26,7 +26,10 @@ Traditional surveillance methods have relied on case detection by health care wo
 
 Whilst these traditional surveillance methods are incredibly useful, they are intrinsically limited to making diagnoses and counting cases amongst persons who present to the health system. 
 
-(insert Figure XXX)
+The range of infectious disease surveillance, reflecting surveillance modalities appropriate and useful at each level of disease severity. Wastewater and environmental surveillance provides real-time surveillance reflective of entire populations, and not merely the fraction accessible to the health system. 
+
+[!Figure 1. Modified from Shen et al. Progress and challenges in infectious disease surveillance and early warning. Medicine Plus 2(1), 2025, 100071.
+](images/surveillance_pyramid.jpg)
 
 ## Why is mathematical modelling necessary?
 
