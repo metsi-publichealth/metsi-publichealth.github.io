@@ -1,7 +1,11 @@
 title: Hepatitis E
 summary: >
   Hepatitis E is a major cause of acute hepatitis worldwide, with over 19.47 million cases estimated in 2021. Genotypes 1-4 affect humans, with 3 and 4 being zoonotically transmitted from animals to humans. Genotypes 1 and 2 cause major outbreaks, especially in low-income countries and internally displaced camps. Genotypes 3 and 4 cause sporadic outbreaks, especially in high-income countries. In South Africa the true burden of HEV is unknown due to limited clinical data, with only 247 cases reported from 2018 to 2023. Seroprevalence studies done in South Africa indicate a rising burden of HEV infection. Wastewater surveillance (WWS) has proven successful in detecting HEV from samples in monitored sites and WWTPs in South Africa. An ongoing WWS by the NICD currently monitors sites for various pathogens, including HEV. This project aims to use this data to identify associations between wastewater positivity rates in selected sites in Gauteng and socio-economic and demographic indicators obtained from the 2023/2024 GCRO-QoL survey. We also aim to estimate the age- and sex-specific incidence of HEV using the serology data obtained from the SAMS 4 and 5 study performed in Gauteng. The outcomes from these analyses will add to the body of knowledge of Hepatitis E, transmission, and the burden of the disease.
-team: Comfort Jones, Kath O'Reilly, Cari van Schalkwyk, Kerrigan McCarthy
+team: 
+  - Commiejones
+  - kath-o-reilly 
+  - carivs
+  - kerriganmcc
 url: ""
 repo: NICD-Wastewater-Genomics/NICD-Wastewater-Genomics.github.io
 image: images/genomes.svg

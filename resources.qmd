@@ -4,33 +4,34 @@ description: |
   Useful resources that we've identified and wider resources for poeple
 ---
 
-# Resources we've found useful
+## Resources we've found useful
 
 Here we highlight some of the tools that others have made available, and that the team have used in their analysis
 
-## [EpiSewer](https://github.com/adrian-lison/EpiSewer) - estimating Rt from wastewater data
+### [EpiSewer](https://github.com/adrian-lison/EpiSewer) - estimating Rt from wastewater data
 
 This package was used by Zinhle Mthombothi in her paper available at [PloS Global Public Health](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0006424). The analysis was applied to WW data in South Africa.
-## [EpiForecasts](https://epiforecasts.io/) - estimating Rt from clinical data 
+
+### [EpiForecasts](https://epiforecasts.io/) - estimating Rt from clinical data 
 
 This package is in use by current projects to estimate Rt from clinical data
 
-# Data used within MetSi-PH
+## Data used within MetSi-PH
 
 Much of the data are publicly available for use. Several links are provided below:
 
-## [GCRO Quality of Life Survey Data](https://www.gcro.ac.za/research/project/detail/quality-life-survey-7/)
+### [GCRO Quality of Life Survey Data](https://www.gcro.ac.za/research/project/detail/quality-life-survey-7/)
 The GCRO QOLS measures the quality of life and wellbeing of residents in every ward of the Gauteng province, South Africa. In face-to-face interviews, randomly selected respondents are asked questions about their living and socio-economic circumstances, their opinions about service delivery and government, and their experiences, perceptions, and opinions on a broad range of personal, social, and political issues. Data are available via an [online tool](https://www.gcro.ac.za/data-gallery/quality-of-life/detail/quality-life-v-201718-survey-viewer/) or [repository](https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/995).
 
-## [Wastewater data](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
+### [Wastewater data](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
 
 A weekly surveillance report is available on the NICD website.
 
-## [Clinical data](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
+### [Clinical data](https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/)
 
 A weekly surveillance report is available on the NICD website.
 
-# Requesting data access
+## Requesting data access
 
 [to add…]
 
