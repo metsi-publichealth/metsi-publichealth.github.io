@@ -40,6 +40,9 @@ properties:
     description: Your ORCiD
     type: string
     pattern: ^\d{4}-\d{4}-\d{4}-\d{3}(X|\d)$
+  position:
+    description: Your ORCiD
+    type: string
   description:
     description: A short text about yourself and your work within the team.
     type: string
