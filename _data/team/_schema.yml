@@ -12,8 +12,12 @@ properties:
     type: string
   affiliation:
     description: >
-      select one of the consortium partners
-    type: string
+      select one or more of the consortium partners
+    type:
+      - string
+      - array
+    items:
+      type: string
   webpage:
     description: A link to your personal webpage (leave blank if you don't have one)
     type: string

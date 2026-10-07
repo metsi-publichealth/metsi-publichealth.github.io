@@ -241,6 +241,10 @@
   display: block;
 }
 
+.team-member-affiliation-item:not(:last-child)::after {
+  content: ", ";
+}
+
 .team-member-affiliation,
 .team-member-role {
   font-weight: normal;

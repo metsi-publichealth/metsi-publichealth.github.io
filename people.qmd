@@ -27,6 +27,17 @@ field <- function(e, name) {
   paste(as.character(value), collapse = " ")
 }
 
+affiliation_values <- function(e) {
+  value <- e[["affiliation"]]
+
+  if (is.null(value) || length(value) == 0) {
+    return(character())
+  }
+
+  value <- as.character(value)
+  value[!is.na(value) & nzchar(trimws(value))]
+}
+
 role <- function(e) {
   position <- e[["position"]]
 
@@ -46,8 +57,8 @@ role <- function(e) {
 }
 
 affiliations <- current_team |>
-  purrr::map_chr(\(e) field(e, "affiliation")) |>
-  purrr::discard(\(affiliation) affiliation == "") |>
+  purrr::map(affiliation_values) |>
+  unlist(use.names = FALSE) |>
   unique() |>
   sort()
 
@@ -86,7 +97,10 @@ expanded <- purrr::map_chr(current_team, function(e) {
   knitr::knit_expand(
     "_team_member.Rmd", 
     name = field(e, "name"),
-    affiliation = field(e, "affiliation"),
+    affiliation_values = paste(
+      vapply(affiliation_values(e), encodeString, character(1), quote = '"'),
+      collapse = ", "
+    ),
     role = role(e),
     email = field(e, "email"),
     image = field(e, "image"),

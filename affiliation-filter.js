@@ -13,9 +13,11 @@
     let visibleCount = 0;
 
     members.forEach((member) => {
-      const affiliation = member.querySelector(".team-member-affiliation");
+      const affiliations = Array.from(
+        member.querySelectorAll(".team-member-affiliation-item")
+      ).map((item) => item.textContent.trim());
       const matches = selectedAffiliation === null ||
-        (affiliation && affiliation.textContent.trim() === selectedAffiliation);
+        affiliations.includes(selectedAffiliation);
       member.hidden = !matches;
       if (matches) {
         visibleCount += 1;

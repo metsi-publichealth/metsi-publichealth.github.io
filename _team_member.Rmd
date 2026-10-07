@@ -21,7 +21,7 @@ icon_link <- function(icon = NULL, text = "", url = NULL) {
 
 ```{r}
 name <- "{{name}}"
-affiliation <- "{{affiliation}}"
+affiliation <- c({{affiliation_values}})
 role <- "{{role}}"
 email <- "{{email}}"
 image <- "{{image}}"
@@ -32,6 +32,11 @@ bluesky <- "{{bluesky}}"
 orcid <- "{{orcid}}"
 description <- "{{description}}"
 
+affiliation_tags <- purrr::map(
+  affiliation,
+  \(value) htmltools::tags$span(value, class = "team-member-affiliation-item")
+)
+
 name_link <- name
 if (webpage != "") {
   name_link <- htmltools::a(name, href = webpage)
@@ -39,7 +44,7 @@ if (webpage != "") {
 
 title <- htmltools::div(
   htmltools::div(name_link, class = "team-member-name"),
-  htmltools::div(affiliation, class = "team-member-affiliation"),
+  htmltools::div(htmltools::tagList(affiliation_tags), class = "team-member-affiliation"),
   if (role != "") htmltools::div(role, class = "team-member-role")
 )
 
