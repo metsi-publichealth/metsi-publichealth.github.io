@@ -48,3 +48,4 @@ format:
     link-external-newwindow: true
     resources:
       - publication-filter.js
+      - affiliation-filter.js

@@ -45,6 +45,43 @@ role <- function(e) {
     paste(collapse = ", ")
 }
 
+affiliations <- current_team |>
+  purrr::map_chr(\(e) field(e, "affiliation")) |>
+  purrr::discard(\(affiliation) affiliation == "") |>
+  unique() |>
+  sort()
+
+filter_controls <- htmltools::tagList(
+  htmltools::div(
+    class = "team-affiliation-filters",
+    role = "group",
+    `aria-label` = "Filter team members by affiliation",
+    htmltools::tags$button(
+      "All affiliations",
+      type = "button",
+      class = "team-affiliation-filter active",
+      `data-all` = "true",
+      `aria-pressed` = "true"
+    ),
+    purrr::map(affiliations, \(affiliation) {
+      htmltools::tags$button(
+        affiliation,
+        type = "button",
+        class = "team-affiliation-filter",
+        `data-affiliation` = affiliation,
+        `aria-pressed` = "false"
+      )
+    })
+  ),
+  htmltools::tags$p(
+    id = "team-affiliation-count",
+    class = "team-affiliation-count",
+    `aria-live` = "polite"
+  )
+)
+cat(htmltools::renderTags(filter_controls)$html, "\n")
+cat('<script src="affiliation-filter.js" defer></script>\n')
+
 expanded <- purrr::map_chr(current_team, function(e) {
   knitr::knit_expand(
     "_team_member.Rmd", 
