@@ -4,7 +4,7 @@ description: |
   Ongoing analysis projects from the group
 ---
 
-Ongoing analysis and research projects from the group. For completed work, see our [publications](pubs.qmd). For reusable tools, see our [software](software.qmd).
+Ongoing analysis and research projects from the group. For completed work, see our [publications](pubs.qmd). 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
