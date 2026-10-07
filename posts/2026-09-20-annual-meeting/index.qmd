@@ -1,0 +1,25 @@
+---
+title: "Metsi Annual Meeting (September 2026)"
+subtitle: "Reflections"
+author:
+  - name: Kath O'Reilly
+    orcid_id: 0000-0002-4892-8022
+date: 2026-09-11
+toc: true
+aliases:
+  - getting started.html
+editor_options: 
+  markdown: 
+    wrap: 80
+---
+
+Last week I visited my collaborators in South Africa on the MeTsi Modelling Consortium. This research aims to support the use and translation of environmental surveillance (aka #wastewater) data pertaining to communicable diseases for public health decision-making, integrated with traditional surveillance data such as case reporting. We focus is on data collected within South Africa - and crucially the ES data are collected by NICD and analysis is largely carried out by researchers across NICD, GCRO, MASHA and SACEMA. This was our annual meeting, and it was a real joy that we could have it in the beautiful surroundings of the Stellenbosch hills and wineries. 
+
+![montage.jpg](A selection of photos taken during the meeting)
+
+The research team presented on their ongoing projects. Each researcher has their own ‘research question’, from figuring out what the the ES data for Hepatitis E is telling us and whether it is consistent with clinical data, to what the sensible spatial signature is for measles ES data. Being able to present and discuss the research in person was really valuable as everyone has their own areas of expertise and insights, which are much better to communicate in person, and we could see the bigger picture of why are applying different approaches to different research questions.
+
+Personally, I was so pleased to meet in person the researchers that I have developed a great online relationship with. We started these projects about 18 months ago, and it’s great to see how the research has developed, and researchers new to this area have developed their expertise. When we first put together these projects, it might have initially seemed confusing as to why each had different approaches, but I think now that rationale has come through as it’s much more obvious that each of these questions have different presenting problems and nuances in the data. As the projects have progressed I also seen that what we have learnt from one project has been very useful (and often applied) to another project. Over the next few months we should start to see conclusions emerging that help us and other researchers know where and why ES data has benefits. And ‘note to self’ - get a photo of everyone before they leave (sorry to those not on the photos)!
+
+Thanks to the Gates Foundation for funding this important research. 
+
