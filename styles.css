@@ -169,6 +169,39 @@
   border-bottom: none;
 }
 
+.team-member-card[hidden] {
+  display: none;
+}
+
+.team-affiliation-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.team-affiliation-filter {
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.team-affiliation-filter.active {
+  color: var(--bs-white, #fff);
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.team-affiliation-count {
+  margin: 0.5rem 0 1rem;
+  color: var(--bs-secondary-color, #6c757d);
+  font-size: 0.9rem;
+}
+
 .profile-pic {
   width: 150px;
   height: 150px;
