@@ -1,6 +1,6 @@
 ---
 title: "Wastewater Spiking Experiment (October 2026)"
-subtitle: "Reflections"
+subtitle: "Notes from the field"
 author:
   - name: Kerrigan McCarthy
     orcid_id: 0000-0001-8958-9795
