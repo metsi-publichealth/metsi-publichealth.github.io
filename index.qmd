@@ -50,7 +50,7 @@ __Who we are__
 
 MEtSI-PH is a consortium of mathematical modellers, epidemiologists, laboratory scientists and public health specialists focused on the application of wastewater and environmental surveillance in lower and middle income countries, and committed to developing interpretive frameworks for environmental surveillance data in these contexts. The goal is to support the use and translation of environmental surveillance data pertaining to communicable diseases for public health decision-making, integrated with traditional surveillance data such as case reporting. 
 
-![images/metsi_logos_consort.jpg](Consortium members)
+![Consortium members](images/metsi_logos_consort.jpg)
 
 __Why ‘MEtSI-PH’?__
 
