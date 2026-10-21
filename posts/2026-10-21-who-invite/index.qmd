@@ -4,7 +4,7 @@ subtitle: "Reflections"
 author:
   - name: Kerrigan McCarthy
     orcid_id: 0000-0001-8958-9795
-date: 2026-10-11
+date: 2026-10-26
 toc: true
 aliases:
   - getting started.html
