@@ -15,7 +15,7 @@ editor_options:
 
 Last week I visited my collaborators in South Africa on the MeTsi Modelling Consortium. This research aims to support the use and translation of environmental surveillance (aka #wastewater) data pertaining to communicable diseases for public health decision-making, integrated with traditional surveillance data such as case reporting. We focus is on data collected within South Africa - and crucially the ES data are collected by NICD and analysis is largely carried out by researchers across NICD, GCRO, MASHA and SACEMA. This was our annual meeting, and it was a real joy that we could have it in the beautiful surroundings of the Stellenbosch hills and wineries. 
 
-![A selection of photos taken during the meeting](montage.jpg)
+![A selection of photos taken during the meeting](posts/2026-09-20-annual-meeting/montage.jpg)
 
 The research team presented on their ongoing projects. Each researcher has their own ‘research question’, from figuring out what the the ES data for Hepatitis E is telling us and whether it is consistent with clinical data, to what the sensible spatial signature is for measles ES data. Being able to present and discuss the research in person was really valuable as everyone has their own areas of expertise and insights, which are much better to communicate in person, and we could see the bigger picture of why are applying different approaches to different research questions.
 
