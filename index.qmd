@@ -55,3 +55,6 @@ MEtSI-PH is a consortium of mathematical modellers, epidemiologists, laboratory 
 __Why ‘MEtSI-PH’?__
 
 MEtSI-PH is an acronym standing for ‘Modelling EnvironmenTal Surveillance data for Improvements in Public Health. ‘Metsi’ is also a Sesotho and Setswana word for water. Both southern Bantu languages are spoken in regions of South Africa and Botswana that are water scarce - such as the Kalahari desert. In these regions, water has more than practical value for drinking and hygiene. It has a central role in agriculture and human settlements, and has symbolic value conveying meanings of life, fertility and survival. In taking on the name ‘Metsi’, our modelling consortium draws on these concepts as we transform data extracted from environmental and wastewater to support public health and human flourishing. 
+
+<script data-goatcounter="https://metsiph.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
