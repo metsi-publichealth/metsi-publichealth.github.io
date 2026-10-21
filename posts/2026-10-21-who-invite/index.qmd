@@ -1,0 +1,21 @@
+---
+title: "WHO meeting on wastewater for public health (October 2026)"
+subtitle: "Reflections"
+author:
+  - name: Kerrigan McCarthy
+    orcid_id: 0000-0001-8958-9795
+date: 2026-10-11
+toc: true
+aliases:
+  - getting started.html
+editor_options: 
+  markdown: 
+    wrap: 80
+---
+
+We are all looking forward to this important meeting, more soon!
+
+![meeting](who-invite.png)
+
+
+
