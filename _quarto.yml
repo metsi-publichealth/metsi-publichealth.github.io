@@ -49,4 +49,3 @@ format:
     resources:
       - publication-filter.js
       - affiliation-filter.js
-    include-after-body: traffic.html
