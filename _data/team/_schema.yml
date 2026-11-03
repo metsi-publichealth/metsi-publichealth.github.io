@@ -41,8 +41,19 @@ properties:
     type: string
     pattern: ^\d{4}-\d{4}-\d{4}-\d{3}(X|\d)$
   position:
-    description: Your ORCiD
-    type: string
+    description: Your position in the team
+    oneOf:
+      - type: string
+      - type: array
+        items:
+          type: object
+          properties:
+            type:
+              type: string
+            start:
+              type: string
+          required:
+            - type
   description:
     description: A short text about yourself and your work within the team.
     type: string
