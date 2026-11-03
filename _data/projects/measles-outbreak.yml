@@ -1,11 +1,6 @@
 title: Measles (outbreak detection)
 summary: >
-  Clinical and wastewater surveillance provide different but potentially complementary evidence of measles
-circulation, yet the relationship between their findings remains insufficiently understood. For example,
-clinical surveillance may not capture all infections. Wastewater surveillance may detect community
-circulation independently of healthcare-seeking, but it cannot ordinarily identify infected individuals,
-determine the number of infections, or establish transmission pathways. The epidemiological meaning of
-wastewater detections without corresponding clinical cases remains uncertain. This project will use modelling alongside clinical and wastewater data to quantify the sensitivity of data data source, and factors associated with sensitivity. This analysis will help us understand to role that wastewater may have in routine detection of measles outbreaks. 
+  Clinical and wastewater surveillance provide different but potentially complementary evidence of measles circulation, yet the relationship between their findings remains insufficiently understood. For example, clinical surveillance may not capture all infections. Wastewater surveillance may detect community circulation independently of healthcare-seeking, but it cannot ordinarily identify infected individuals, determine the number of infections, or establish transmission pathways. The epidemiological meaning of wastewater detections without corresponding clinical cases remains uncertain. This project will use modelling alongside clinical and wastewater data to quantify the sensitivity of data data source, and factors associated with sensitivity. This analysis will help us understand to role that wastewater may have in routine detection of measles outbreaks. 
 team: 
   - kerriganmcc
   - RixoMalomane
