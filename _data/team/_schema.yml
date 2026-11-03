@@ -52,8 +52,6 @@ properties:
               type: string
             start:
               type: string
-          required:
-            - type
   description:
     description: A short text about yourself and your work within the team.
     type: string
