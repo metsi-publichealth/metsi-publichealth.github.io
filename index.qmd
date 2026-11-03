@@ -10,7 +10,7 @@ resources:
   - "images/banner_photos/1V2A4372.jpg"
 include-before-body:
   text: |
-  <script data-goatcounter="https://metsiph.goatcounter.com/count"
+    <script data-goatcounter="https://metsiph.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 ---
 
