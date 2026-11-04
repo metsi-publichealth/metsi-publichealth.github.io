@@ -1,4 +1,4 @@
-title: Influenza - Estimating the Effective Reproduction Number
+title: Influenza 
 summary: >
   Influenza remains a major global health burden, with the World Health Organization (WHO) estimating about one billion seasonal cases each year, including 3–5 million severe cases and up to 650,000 deaths. Clinical surveillance systems are important, but they may not fully capture community transmission, especially for infections that go unreported. Wastewater surveillance offers a complementary, non-invasive way to monitor influenza circulation at the community level. This study will use South Africa’s existing wastewater and clinical surveillance systems to develop a framework for influenza monitoring. Controlled spiking experiments will be conducted to generate data on viral decay, recovery, and transport in wastewater to support the modelling work. The study will also develop methods to identify the start of the influenza season and to nowcast and forecast influenza activity. Using comparative analyses and estimates of the effective reproduction number, the study will investigate influenza transmission dynamics and assess the relationship between wastewater and clinical surveillance data using established models.
 
@@ -10,5 +10,5 @@ team:
 url: ""
 repo: ""
 image: ""
-start: ""
-end: ""
+start: 2024-09-01
+end: 2027-09-01
