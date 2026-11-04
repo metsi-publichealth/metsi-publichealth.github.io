@@ -1,0 +1,22 @@
+---
+title: "WES Conference in Accra (March 2026)"
+subtitle: "Summary"
+author:
+  - name: Comfort Jones
+    orcid_id: 0000-0002-4892-8022
+date: 2026-03-11
+toc: true
+aliases:
+  - Accra.html
+editor_options: 
+  markdown: 
+    wrap: 80
+---
+
+Researchers from the MEtSI-PH Consortium recently joined public health researchers in Accra, Ghana, for the 2026 Wastewater and Environmental Surveillance (WES) meeting. The event highlighted how wastewater surveillance is being implemented for disease control across Africa, acting as an early-warning system for settings where clinical data is limited.
+
+Our consortium members gave talks and poster presentations on various pathogens, such as influenza, hepatitis A and E, measles, tuberculosis (TB), and current work in wastewater genomics in South Africa. A major highlight was seeing the adoption of the multi-pathogen WES approach used here in South Africa across other African countries like Ghana, Nigeria and Uganda, providing powerful tools to track specific pathogens.
+
+The next steps are to scale these WES methods in low- and middle-income countries and to translate findings into meaningful public health recommendations for local stakeholders. We are really pleased with our team's contributions to the success of this meeting and thank the Gates Foundation for making our attendance possible.
+
+
